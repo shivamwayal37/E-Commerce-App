@@ -30,7 +30,7 @@ spring:
             required: true
 
 jwt:
-  secret: aBcDeFgHiJkLmNoPqRsTuVwXyZ0123456789+AB/CDE=
+  secret: aHNkU1BTV1NVVTRHNUZQUGNWNzM2Z2xRODJzbkV3bkZ1bFc0U0N6NE82Zz0=
   expiration: 86400000  # 24 hours
   token-prefix: Bearer 
 

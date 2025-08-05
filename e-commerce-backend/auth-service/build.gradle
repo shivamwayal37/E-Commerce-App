@@ -48,10 +48,15 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok:1.18.32'
     
     // JWT dependencies
-    implementation 'io.jsonwebtoken:jjwt:0.9.1'
+    implementation 'io.jsonwebtoken:jjwt-api:0.12.5'
+    implementation 'io.jsonwebtoken:jjwt-impl:0.12.5'
+    implementation 'io.jsonwebtoken:jjwt-jackson:0.12.5' // or jjwt-gson if you prefer Gson
     
     // MySQL
     runtimeOnly 'mysql:mysql-connector-java:8.0.33'
+    
+    // Validation
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
     
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'

@@ -54,7 +54,7 @@ e-commerce-backend/
 - Maven/Gradle
 - MySQL 8.0
 - Kafka
-- Redis (optional for caching)
+- Redis (o
 
 ## Getting Started
 

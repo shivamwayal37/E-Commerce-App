@@ -23,9 +23,11 @@ public class SecurityEnhancementConfig extends WebSecurityConfigurerAdapter {
                 .httpStrictTransportSecurity(hsts -> hsts.includeSubDomains(true).maxAgeInSeconds(31536000)))
             .csrf(csrf -> csrf.disable())
             .authorizeRequests(authorize -> authorize
-                .antMatchers("/api/auth/**").permitAll()
-                .antMatchers("/api/**").authenticated())
-            .oauth2ResourceServer(oauth2 -> oauth2.jwt());
+                .antMatchers("/actuator/**").permitAll()
+                .antMatchers("/**").permitAll())
+            .requestCache().disable()
+            .securityContext().disable()
+            .sessionManagement().disable();
             
         return http.build();
     }
