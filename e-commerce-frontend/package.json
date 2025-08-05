@@ -1,0 +1,71 @@
+{
+  "name": "e-commerce-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:8080",
+  "dependencies": {
+    "@date-io/date-fns": "^3.2.1",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@hookform/resolvers": "^5.1.1",
+    "@mui/icons-material": "^5.14.18",
+    "@mui/lab": "^5.0.0-alpha.145",
+    "@mui/material": "^5.14.18",
+    "@mui/x-date-pickers": "^6.18.5",
+    "@reduxjs/toolkit": "^2.8.2",
+    "@stripe/react-stripe-js": "^3.7.0",
+    "@stripe/stripe-js": "^7.3.1",
+    "@tanstack/react-query": "^5.80.7",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@vitejs/plugin-react": "^4.5.2",
+    "axios": "^1.9.0",
+    "date-fns": "^2.30.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.57.0",
+    "react-intersection-observer": "^9.16.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.6.2",
+    "react-scripts": "5.0.1",
+    "recharts": "^2.15.3",
+    "stripe": "^18.2.1",
+    "vite": "^6.3.5",
+    "web-vitals": "^2.1.4",
+    "yup": "^1.6.1"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "test": "vitest",
+    "preview": "vite preview"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^24.0.1",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "typescript": "^4.9.5"
+  }
+}
